@@ -1,0 +1,9 @@
+*.DS_Store
+dist/
+node_modules/
+logs/
+keys/
+test_keys/
+scripts/start.*
+*_db.json
+db.json

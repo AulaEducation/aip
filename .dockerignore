@@ -1,0 +1,6 @@
+node_modules/.bin
+node_modules/babel*
+node_modules/eslint*
+.git
+!node_modules/babel-runtime
+!node_modules/babel-polyfill

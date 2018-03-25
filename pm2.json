@@ -1,0 +1,13 @@
+{
+  "apps" : [{
+    "name"             : "aip",
+    "cwd"              : "./dist/",
+    "script"           : "index.js",
+    "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+    "instances"        : 1,
+    "max_memory_restart": "500M",
+    "exec_interpreter" : "node",
+    "exec_mode"        : "fork",
+    "autorestart"      : true,
+  }]
+}

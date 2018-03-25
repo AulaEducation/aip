@@ -1,0 +1,26 @@
+{
+  "name": "aip-disk-log-adapter",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir ./dist",
+    "watch": "babel src --watch --out-dir ./dist",
+    "start": "yarn run build && LOCAL=true node ./dist/index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^5.0.0"
+  }
+}
