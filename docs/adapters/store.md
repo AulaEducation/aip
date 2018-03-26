@@ -54,5 +54,5 @@ export default CustomStoreAdapter;
 
 ## Existing adapters
 
-- JSON: [github](link) - [npm](link)
-- LDAP: [github](link) - [npm](link)
+- JSON: `adapters/store/json`
+- LDAP: `adapters/store/ldap` - [docs](adapters/ldap)
