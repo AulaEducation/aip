@@ -13,3 +13,7 @@
 
 [GitHub](https://github.com/AulaEducation/aip)
 [Docs](quick_start.md)
+
+<!-- background color -->
+
+![color](#000)

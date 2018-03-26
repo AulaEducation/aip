@@ -14,13 +14,13 @@
     "build-adapters": "yarn run build-adapter-log-disk && yarn run build-adapter-store-json && yarn run build-adapter-store-ldap && echo '\nAdapters Compiled\n'",
     "build": "babel src --out-dir ./dist --ignore '**/*.test.js' && echo '\nCore Compiled\n'",
     "build-all": "yarn run build-adapters && yarn run build",
-    "docker-build": "yarn run build && docker build . -t aip:beta",
+    "docker-build": "yarn run build && docker build . -t aulaeducation/aip:latest",
     "watch": "babel src --watch --out-dir ./dist",
     "start": "yarn run build && LOCAL=true node ./dist/index.js",
     "test": "jest ./src",
     "docs": "docsify serve ./docs",
     "gen-keys": "./scripts/gen_keys.sh",
-    "gen-keys-test": "./scripts/gen_keys_test.sh",
+    "gen-keys-test": "./scripts/gen_keys_test.sh"
   },
   "jest": {
     "transform": {
